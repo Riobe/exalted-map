@@ -30,40 +30,6 @@ const transportation = {
     maxLength: 10
   }
 };
-const transportation2 = {
-  'Horseback (Standard)': {
-    rate: 4,
-    maxLength: 10
-  },
-  'Horseback (Courier)': {
-    rate: 10,
-    maxLength: 10
-  },
-  'Marching (Typical)': {
-    rate: 2,
-    maxLength: 10
-  },
-  'Shambling Horde': {
-    rate: 0.5,
-    maxLength: 20
-  },
-  'Merchant Junk': {
-    rate: 6,
-    maxLength: 24
-  },
-  'Realm Trireme': {
-    rate: 7,
-    maxLength: 24
-  },
-  'Western Caravel': {
-    rate: 9,
-    maxLength: 24
-  },
-  'Bound Agata':  {
-    rate: 30,
-    maxLength: 10
-  },
-}
 
 const deepFreeze = o => {
   Object.freeze(o);
