@@ -21,6 +21,10 @@ const transportation = {
     rate: 16,
     maxLength: 24
   },
+  'Sand Cruiser': {
+    rate: 14,
+    maxLength: 24
+  },
   'Cirrus Skiff': {
     rate: 6,
     maxLength: 24
